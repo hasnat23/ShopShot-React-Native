@@ -6,8 +6,10 @@
  * @flow strict-local
  */
 
-import React, {useEffect, useState} from 'react';
-import type {Node} from 'react';
+/* Setting up Allication flow   */
+
+import React, { useEffect, useState } from 'react';
+import type { Node } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -18,7 +20,7 @@ import {
 } from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 import Card from './components/Card';
-import {sWidth} from './constants/dimensions';
+import { sWidth } from './constants/dimensions';
 
 const App: () => Node = () => {
   const [products, setProducts] = useState();
@@ -55,7 +57,7 @@ const App: () => Node = () => {
           backgroundColor: '#3f46c0',
         }}>
         {/* Header */}
-        <Text style={{color: '#FFFFFF', fontWeight: '600'}}>Shopshot</Text>
+        <Text style={{ color: '#FFFFFF', fontWeight: '600' }}>Shopshot</Text>
       </View>
       <ScrollView>
         {products &&
