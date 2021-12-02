@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "622909242582",
+    "project_id": "shopshot-5d3cc",
+    "storage_bucket": "shopshot-5d3cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622909242582:android:d68b463e21bfb0e866dd77",
+        "android_client_info": {
+          "package_name": "com.shopshot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622909242582-t3nht4a0hldudlf9nh69euv5tnen9akn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJGKs1AlDSVn5rhcEH12FEUjbCc6yzLwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622909242582-t3nht4a0hldudlf9nh69euv5tnen9akn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
